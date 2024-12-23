@@ -10,6 +10,7 @@ import { FaLinkedinIn, FaFacebookF, FaGoogle } from "react-icons/fa";
 import Certification from "../../components/certificate/Certification";
 import Projects from "../../components/projects/Projects";
 import Contactus from "../../components/contactus/Contactus";
+import Profile from "../../images/profile.jpg";
 
 export default function Home() {
   return (
@@ -43,11 +44,10 @@ export default function Home() {
               <div className="img-home-main">
                 <Tilt>
                   <Fade cascade>
-                    <img
-                      src="./profile.jpg"
-                      alt="home pic"
-                      className="img-fluid"
-                    />
+                    
+                    <img src={Profile}                      alt="home pic"
+                      className="img-fluid"/>
+
                   </Fade>
                 </Tilt>
               </div>
